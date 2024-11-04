@@ -8,23 +8,23 @@ const containerVariants = {
         opacity: 1,
         x: 0,
         transition: {
-            duration: 0.8, // Extend slightly for smoother animation
-            staggerChildren: 0.3, // Faster stagger for a snappier effect
-            when: "beforeChildren" // Ensure children animate after container
+            duration: 0.8, 
+            staggerChildren: 0.3, 
+            when: "beforeChildren" 
         }
     },
-    exit: { opacity: 0, x: 100, transition: { duration: 0.5, ease: "easeInOut" } } // Add exit for smooth exit animation
+    exit: { opacity: 0, x: 100, transition: { duration: 0.5, ease: "easeInOut" } } 
 };
 
 const childVariants = {
-    hidden: { opacity: 0, x: -50 }, // Reduce initial offset to avoid too much movement
-    visible: { opacity: 1, x: 0, transition: { duration: 0.4, ease: "easeInOut" } } // Add easing for smoothness
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.4, ease: "easeInOut" } } 
 };
 
 
 const Header = () => {
   return (
-    <div className=" pb-4 lg:mb-36" id="header">
+    <div className="pl-2 pb-4 lg:mb-36" id="header">
         <div className="flex flex-wrap lg:flex-row-reverse">
             <div className="w-full  lg:w-1/2">
                 <div className="flex justify-center  lg:p-8">
