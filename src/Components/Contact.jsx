@@ -68,7 +68,7 @@ const Contact = () => {
     
 
   return (
-    <div className="p-4 lg:w-3/4 w-full mx-auto" id="contact">
+    <div className="p-4 mb-6 lg:w-3/4 w-full mx-auto" id="contact">
     <Toaster />
     <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">Let's Connect</h2>
     <form onSubmit={handleSubmit}>
