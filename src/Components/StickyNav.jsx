@@ -49,7 +49,7 @@ const StickyNav = () => {
     }, []);
 
     return (
-        <nav className={`fixed top-6 left-1/2 transform -translate-x-1/2 z-50 w-auto sm:w-[90%] md:w-[60%] lg:w-auto transition-opacity duration-300 ${isNavVisible ? 'opacity-100' : 'opacity-0'}`}>
+        <nav className={`fixed top-2 left-1/2 transform -translate-x-1/2 z-50 w-auto sm:w-[90%] md:w-[60%] lg:w-auto transition-opacity duration-300 ${isNavVisible ? 'opacity-100' : 'opacity-0'}`}>
             <div className="px-4 py-3 bg-black/80 backdrop-blur-lg rounded-2xl border border-white/10 shadow-lg shadow-black/50">
                 <ul className="flex  justify-around md:justify-center md:gap-6 items-center">
                     {menuItems.map((item) => {
