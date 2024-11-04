@@ -24,7 +24,7 @@ const childVariants = {
 
 const Header = () => {
   return (
-    <div className="pl-4 pb-4 lg:mb-36" id="header">
+    <div className=" pb-4 lg:mb-36" id="header">
         <div className="flex flex-wrap lg:flex-row-reverse">
             <div className="w-full  lg:w-1/2">
                 <div className="flex justify-center  lg:p-8">
