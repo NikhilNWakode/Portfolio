@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Protest+Guerrilla&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: "Inter", sans-serif;
+  background: #000000;
+}
+
+::-webkit-scrollbar {
+  width:0px;
+  height: 5px;
+  background-color: #000;
+
+}
+::-webkit-scrollbar-thumb {
+background-color: #f0f0f0;
+  border-radius: 25px;
+  transition: background-color 0.3s ease-in-out; 
+}
