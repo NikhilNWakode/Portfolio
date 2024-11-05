@@ -26,6 +26,9 @@ const Contact = () => {
     const validate = () => {
         let errors = {}
         if (!formData.name) errors.name = "Name is required";
+        else if (!/^[A-Za-z]{2,}$/.test(formData.name)) {
+        errors.name = "Name must contain at least two alphabetic characters";
+    }
         if (!formData.email){
             errors.email = "Email is required";
         }else if(!/\S+@\S+\.\S+/.test(formData.email)){
