@@ -28,7 +28,7 @@ const PROJECTS = [
     "https://apnastay-1jut.onrender.com/listings",
     "https://github.com/NikhilNWakode/Apnastay"
   ]
-}
+},
   {
     title: "CineCraft - Movie and TV Discovery Platform",
     image: CineCraft,
