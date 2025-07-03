@@ -15,6 +15,21 @@ const PROJECTS = [
 
   },
   {
+  title: "ApnaStay - Airbnb Clone with Cloud Features",
+  image: ApnaStayImage, 
+  description:
+    "ApnaStay is a full-featured Airbnb clone built with Node.js, Express, MongoDB, and EJS. It includes secure user authentication, Cloudinary image uploads, dynamic listings with CRUD operations, review systems, flash messaging, and responsive modern UI. Enhanced with real-time validations, filtering options, and optimized for performance using lazy loading and Cloudinary transformations.",
+  technologies: [
+    "Node.js", "Express.js", "MongoDB", "EJS", "Mongoose",
+    "Bootstrap", "Cloudinary", "Multer", "Mapbox", 
+    "Helmet", "Passport.js", "Connect-Flash"
+  ],
+  links: [
+    "https://apnastay-1jut.onrender.com/listings",
+    "https://github.com/NikhilNWakode/Apnastay"
+  ]
+}
+  {
     title: "CineCraft - Movie and TV Discovery Platform",
     image: CineCraft,
     description:
